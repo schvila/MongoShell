@@ -1,0 +1,2 @@
+mongodb+srv://standa:rnEZ3rjw3lf9J7Bh@cluster0.5tfx5.mongodb.net
+mongodb://127.0.0.1:27017

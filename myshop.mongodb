@@ -1,0 +1,17 @@
+use('shop');
+db.products.drop();
+db.products.insertOne({'name': 'Book1', 'price':34.50});
+db.products.insertOne({'name': 'WorldAtlas', 'price':34.50, 'description':'1:100 000'});
+db.products.insertOne(
+{
+    "name": "Computer",
+    "price": 34.5,
+    "description": "1:100 000",
+    "details": {
+      "ram": "8GB",
+      "CPU": "Intel i9"
+    }
+  });
+db.products.find();
+//db.products.find({'name': 'WorldAtlas'});
+//db.products.findOne({'name':ObjectId('60f9659629558f1b8a5ef358')})

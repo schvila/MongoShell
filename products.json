@@ -1,0 +1,15 @@
+[
+  {
+    "name": "Computer",
+    "price": 34.5,
+    "description": "1:100 000",
+    "details": {
+      "ram": "8GB",
+      "CPU": "Intel i9"
+    }
+  },
+  {
+    "name": "Book1",
+    "price": 34.5
+  }
+]
