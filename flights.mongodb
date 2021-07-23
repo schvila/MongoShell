@@ -19,8 +19,11 @@ db.flightData.insertMany(
 ]
 );
 //db.flightData.deleteOne({"arrivalAirport": "TXL"})
-db.flightData.updateOne({"distance": 950},
-{$set: {
-  "marker": "delete"
-}})
-db.flightData.find();
+// db.flightData.updateOne({"distance": 950},
+// {$set: {
+//   "marker": "delete"
+// }})
+// db.flightData.find();
+// update bez $set provede replace element zustane id db.flightData.update({"distance": 950}, {"marker": "delete"})
+// proto radeji updateOne/Many
+db.flightData.find({"distance": {$gt: 1000}});
