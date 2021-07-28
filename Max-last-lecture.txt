@@ -1,1 +1,2 @@
+on mac --fork run mongod as service and cfg path
 continue with "Data types in action"
