@@ -1,2 +1,4 @@
-on mac --fork run mongod as service and cfg path
+ --fork
+run as background service on mac. On windows there is win service net start/stop.
+cfg file can be used to start mongod with cfg options
 continue with "Data types in action"
