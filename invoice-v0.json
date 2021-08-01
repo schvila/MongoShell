@@ -1,0 +1,13 @@
+{
+  "invNr": "3510",
+  "createDate": "2021-03-01T09:00:00Z",
+  "dueDate": "2021-17-01T09:00:00Z",
+  "supplier": {
+    "name": "Standa",
+    "city": "Zlin"
+  },
+  "customer": {
+    "name": "Pecenka",
+    "city": "Praha"
+  }
+}

@@ -35,3 +35,4 @@ const aggregation = [
 // Use toArray() to exhaust the cursor to return the whole result set.
 // You can use hasNext()/next() to iterate through the cursor page by page.
 db.sales.aggregate(aggregation).toArray();
+db.sales.find();
